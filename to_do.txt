@@ -1,0 +1,6 @@
+Next to do:
+    Basic website layout
+
+Vision:
+    -A database that stores the restaurants eaten at
+    -Forms to add new restaurants
