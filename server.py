@@ -11,6 +11,10 @@ def homepage():
 def pizza_eaten():
     return render_template('pizza_eaten.html')
 
+@app.route('/join')
+def join():
+    return render_template('join.html')
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
