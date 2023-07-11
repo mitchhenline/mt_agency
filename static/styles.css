@@ -1,21 +1,47 @@
+body {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgb(14, 160, .75));
+}
+
+
 /* Header */
 
 #header {
     position: fixed;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
     top: 0px;
     width: 100%;
-    height: 100px;
+    height: 500px; /* Adjust the height as needed */
     opacity: 1;
     transition: opacity 0.5s ease;
-    background: linear-gradient(to bottom, white, rgb(173, 216, 230));
 }
+
+#left-header {
+    width: 25%; /* Set the width to 25% of the parent container */
+}
+
+.header-link {
+    display: block;
+    margin-bottom: 50px; /* Adjust the spacing between stacked links */
+    margin-left: 50px;
+    color: black; /* Add desired link color */
+    text-decoration: none;
+}
+
+#right-header {
+    width: 75%; /* Set the width to 75% of the parent container */
+}
+
+#main-title {
+    text-align: center; /* Align the title in the center */
+    margin: 0; /* Remove any default margin */
+    font-size: 380%;
+}
+
 
 /* Body */
 
 #body {
-    margin-top: 100px;
-    background-color: rgb(173, 216, 230);
+    margin-top: 500px;
 }
