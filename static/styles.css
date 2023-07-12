@@ -23,10 +23,14 @@ body {
 
 .header-link {
     display: block;
-    margin-bottom: 50px; /* Adjust the spacing between stacked links */
+    margin-bottom: 15px; /* Adjust the spacing between stacked links */
     margin-left: 50px;
     color: black; /* Add desired link color */
     text-decoration: none;
+}
+
+.header-link:hover {
+    color: rgb(214, 4, 4);
 }
 
 #right-header {
@@ -36,11 +40,18 @@ body {
 #main-title {
     text-align: center; /* Align the title in the center */
     margin: 0; /* Remove any default margin */
+    margin-right: 10%;
     font-size: 380%;
+}
+
+#henucci-font {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 200%;
 }
 
 #lower-title {
     text-align: center;
+    margin-right: 10%;
 }
 
 
