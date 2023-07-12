@@ -3,7 +3,7 @@ body {
 }
 
 
-/* Header */
+/* -------------------Header------------------- */
 
 #header {
     position: fixed;
@@ -39,8 +39,12 @@ body {
     font-size: 380%;
 }
 
+#lower-title {
+    text-align: center;
+}
 
-/* Body */
+
+/* -------------------Body------------------- */
 
 #body {
     margin-top: 500px;

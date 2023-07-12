@@ -15,6 +15,10 @@ def pizza_eaten():
 def join():
     return render_template('join.html')
 
+@app.route('/organization')
+def organization():
+    return render_template('organization.html')
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
