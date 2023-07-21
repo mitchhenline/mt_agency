@@ -1,4 +1,5 @@
 Next to do:
+    Add jinja
     Basic website layout
 
 Vision:
