@@ -45,12 +45,13 @@ body {
     text-align: center; /* Align the title in the center */
     margin: 0; /* Remove any default margin */
     margin-right: 10%;
-    font-size: 380%;
+    font-size: 300%;
 }
 
 #henucci-font {
     font-family: 'Princess Sofia', cursive;
-    font-size: 200%;
+    font-size: 250%;
+    margin-right: 3%;
 }
 
 #lower-title {
