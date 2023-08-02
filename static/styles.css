@@ -60,3 +60,23 @@ body {
 #body {
     margin-top: 500px;
 }
+
+#about {
+    margin-left: 15%;
+}
+
+#pizza-eaten {
+    margin-left: 60%;
+}
+
+#organization {
+    margin-left: 15%;
+}
+
+#join {
+    margin-left: 60%;
+}
+
+.main-subsection {
+    margin-bottom: 125px;
+}
